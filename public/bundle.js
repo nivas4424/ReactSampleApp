@@ -25068,17 +25068,21 @@
 
 	var React = __webpack_require__(1);
 
-	var About = React.createClass({
-	    displayName: 'About',
+	// var About = React.createClass({
+	//     render: function(){
+	//         return(
+	//             <h4>in About page</h4>
+	//         );
+	//     }
+	// });
 
-	    render: function render() {
-	        return React.createElement(
-	            'h4',
-	            null,
-	            'in About page'
-	        );
-	    }
-	});
+	var About = function About() {
+	    return React.createElement(
+	        'h4',
+	        null,
+	        'in About page'
+	    );
+	};
 
 	module.exports = About;
 
