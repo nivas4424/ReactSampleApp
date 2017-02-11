@@ -25094,17 +25094,29 @@
 
 	var React = __webpack_require__(1);
 
-	var Careers = React.createClass({
-	    displayName: 'Careers',
-
-	    render: function render() {
-	        return React.createElement(
+	// var Careers = React.createClass({
+	//     render: function(){
+	//         return(
+	//             <h4>in careers page</h4>
+	//         );
+	//     }
+	// });
+	var Careers = function Careers(props) {
+	    return React.createElement(
+	        'div',
+	        null,
+	        React.createElement(
 	            'h4',
 	            null,
 	            'in careers page'
-	        );
-	    }
-	});
+	        ),
+	        React.createElement(
+	            'p',
+	            null,
+	            'text paragraph '
+	        )
+	    );
+	};
 
 	module.exports = Careers;
 
