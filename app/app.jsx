@@ -6,6 +6,10 @@ var Showcase = require('Showcase');
 var About = require('About');
 var Careers = require('Careers');
 
+// load foundation
+require('style!css!foundation-sites/dist/foundation.min.css')
+$(document).foundation();
+
 ReactDOM.render(
                 <Router history={hashHistory}>
                     <Route path="/" component={Main}>
